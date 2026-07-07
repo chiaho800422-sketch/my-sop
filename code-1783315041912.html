@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true });</script>
+</head>
+<body>
+    <div class="mermaid">
+    graph LR
+        Root[機構設計工程師 SOP 匯總表] --> A(A.共通技術文件)
+        Root --> B(B.日常作業)
+        Root --> C(C.軟體應用)
+        Root --> D(D.核心設備)
+        Root --> E(E.技術文件)
+        Root --> F(F.其他技能)
+
+        A --> A1[五金部品優先選擇原則建議]
+        A --> A2[加工機加工方式精度定義]
+        A --> A3[設計注意事項]
+        A --> A4[DD馬達]
+        A --> A5[線性馬達]
+
+        B --> B1[LV1 新人報到電子郵件EIP帳號密碼申請單]
+        B --> B2[LV2 新人報到-研發設備使用權限申請單]
+
+        C --> C1[Inventor 工程圖範本 LV0]
+        C --> C2[Inventor 建立 LV0]
+
+        D --> D1[LV2 FOSB APX]
+        D --> D2[LV1 Tray APK機台介紹]
+
+        E --> E1[SPEC內容重點確認]
+    </div>
+</body>
+</html>
